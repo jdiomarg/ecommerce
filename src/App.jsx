@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { Purchases, Home, Login, ProductsDetail } from "./pages/Index";
+import { Purchases, Home, Login, ProductsDetail } from "./pages/index";
 import { LoadingScreen, NavBar, ProtectedRoutes } from './components'
 import { useSelector } from 'react-redux';
 import './styles.css'
